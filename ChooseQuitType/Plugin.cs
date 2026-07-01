@@ -8,14 +8,14 @@ using HarmonyLib;
 using MonoMod.RuntimeDetour;
 using UnityEngine;
 
-namespace ModNamespace
+namespace ChooseQuitType
 {
     [BepInPlugin(ModGUID, ModName, ModVersion)]
     public class Plugin : BaseUnityPlugin
     {
-        public const string ModGUID = "modauthor.modname";
-        public const string ModName = "ModName";
-        public const string ModVersion = "0.0.0";
+        public const string ModGUID = "leftie.choosequittype";
+        public const string ModName = "ChooseQuitType";
+        public const string ModVersion = "1.0.0";
 
         internal static new ManualLogSource Logger;
         private readonly Harmony _harmony = new(ModGUID);
